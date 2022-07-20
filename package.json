@@ -1,0 +1,26 @@
+{
+  "name": "notifications",
+  "version": "1.0.0",
+  "description": "rest api for get notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelvalmore21/api_notifications.git"
+  },
+  "author": "Rafael Valderrama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelvalmore21/api_notifications/issues"
+  },
+  "homepage": "https://github.com/rafaelvalmore21/api_notifications#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.18.1"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
